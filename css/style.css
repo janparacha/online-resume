@@ -59,3 +59,9 @@ main p
 	text-decoration: underline;
 	font-style: italic;
 }
+/* bordure de soft skills, langues et interets */
+#formation,#experiences,#experiences-a,#competences, #langues, #interets
+{
+	border: solid;
+	text-align: center;
+}
