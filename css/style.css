@@ -1,0 +1,61 @@
+/* Suppression des marges */
+body
+{
+	margin: 0 10px;
+	font-size: 1em;
+}
+/* Header */
+header
+{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	background-color: rgb(229, 250, 235);
+}
+/* Passage de la première div en second élément du conteneur flex */
+.info
+{
+	order: 1;
+}
+/* Pour flexer les coordoonnées */
+address
+{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	margin: 20px;
+}
+/* Pour mettre le paragraphe en inline */
+address > p
+{
+display: inline;
+margin: 0;
+}
+/* Pour supprimer les marges et centrer les titres */
+h1
+{
+	text-align: center;
+	margin: 10px;
+}
+h2
+{
+	text-align: justify;
+	margin: 15px 5px;
+	font-size: 1.2em;
+}
+/* Centrer la div contenant la photo */
+.image
+{
+	display: flex;
+	justify-content: center;
+}
+img
+{
+	border-radius: 50%;
+}
+/* Centrage des noms d'organismes */
+main p 
+{
+	text-decoration: underline;
+	font-style: italic;
+}
